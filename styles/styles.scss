@@ -22,6 +22,7 @@
 .vl7, .vl8, .vl9, .vl10, .vl11, .vl12{
     height: 1000px;
     top: 200%;
+    z-index: 999999;
     // border: 1px solid red;
 }
 .vl1, .vl7{
@@ -33,8 +34,16 @@
 .vl3, .vl9{
     left: 42%;
 }
-.vl4, .vl10{
-    left: 57%;
+// .vl4{
+//     left: 57%;
+//     // z-index: 1000000;
+// }
+
+.vl4,.vl10{
+    left: 58%;
+    // height: 500px;
+    // right: -10%;
+    // right: -1%;
 }
 .vl5, .vl11{
     left: 72%;
