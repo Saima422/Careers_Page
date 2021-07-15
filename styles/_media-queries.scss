@@ -1,0 +1,36 @@
+// X-Small devices (portrait phones, less than 576px)
+@mixin xsmallDevices {
+    @media (max-width: 575.98px) { 
+        @content;
+     }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin smallDevices {
+    @media (max-width: 767.98px) { 
+        @content;
+    }
+}
+
+// hamburger changes to navbar and height of navbar increases and icon becomes of fixed size
+
+// Medium devices (tablets, less than 992px)
+@mixin mediumDevices {
+    @media (max-width: 991.98px) { 
+        @content;
+    }    
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin largeDevices {
+    @media (max-width: 1199.98px) { 
+        @content;
+    }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin xlargeDevices {
+    @media (max-width: 1399.98px) { 
+        @content;
+    }
+}
