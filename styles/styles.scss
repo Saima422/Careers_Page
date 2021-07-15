@@ -10,6 +10,39 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.vl1, .vl2, .vl3, .vl4, .vl5, .vl6, .vl7, .vl8, .vl9, .vl10, .vl11, .vl12{
+    box-shadow: 0px 0px 0px 0.1px #f6f8f8;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    // bottom: 0;
+    z-index: 999999;
+}
+
+.vl7, .vl8, .vl9, .vl10, .vl11, .vl12{
+    height: 1000px;
+    top: 200%;
+    // border: 1px solid red;
+}
+.vl1, .vl7{
+    left: 12%;
+}
+.vl2, .vl8{
+    left: 27%;
+}
+.vl3, .vl9{
+    left: 42%;
+}
+.vl4, .vl10{
+    left: 57%;
+}
+.vl5, .vl11{
+    left: 72%;
+}
+.vl6, .vl12{
+    left: 87%;
+}
+
 // body{
 //     margin:0;
 // }
@@ -18,6 +51,7 @@
 // }
 
 header{
+    // box-shadow: 0px 1px 15px 0.5px white;
     background-color: $navBackground;
     display: flex;
     justify-content: space-around;
@@ -135,6 +169,11 @@ header{
 
     .nav-item{
         list-style: none;
+
+        i{
+            color:white;
+            padding: 5px;
+        }
 
         .nav-link{
             text-decoration: none;
@@ -398,8 +437,9 @@ footer{
     background-color:$navBackground;
     // height: 100px;
     color: white;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    // padding-top: 80px;
+    // padding-bottom: 50px;
+    padding: 80px 0 50px;
     // border: 2px solid red;
 
     .footer-container{
@@ -481,12 +521,15 @@ footer{
     }
 
     .icons{
-        i{
-            padding:20px;
-
-            &:hover{
-                cursor: pointer;
+        a{
+            color:white;
+            i{
+                padding:20px;
+    
+                &:hover{
+                    cursor: pointer;
+                }
             }
-        }
+        }  
     }
 }
